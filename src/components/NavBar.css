@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .payment-text {
+    margin-right: 10px; /* Ajustez la marge selon vos besoins */
+    font-size: 1rem; /* Taille de police */
+    font-weight: bold; /* Gras */
+    color: #0c0c0c; /* Couleur du texte */
+  }
+  
+  .nav-wrapper {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  .nav-top-banner {
+    background: linear-gradient(to right, #FFD700, #FFA500);
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  
+  .nav-top-banner .nav-left,
+  .nav-top-banner .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-main {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    background: black;
+    background-clip: padding-box;
+    position: relative;
+    width: 100%;
+  }
+  
+  .nav-main::before,
+  .nav-main::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(to right, #FFD700, #FFA500);
+    z-index: -1;
+  }
+  
+  .nav-main::before {
+    top: -5px;
+  }
+  
+  .nav-main::after {
+    bottom: -5px;
+  }
+  
+  .nav-brand h1 {
+    color: #FFD700;
+    font-family: 'Cursive, sans-serif';
+    font-size: 2.5rem;
+  }
+  
+  .nav-link {
+    color: #FFD700 !important;
+    font-size: 1.3rem;
+    transition: color 0.2s ease-in-out;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #FFEF00 !important;
+  }
+  
