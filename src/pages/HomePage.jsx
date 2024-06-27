@@ -8,7 +8,7 @@ function HomePage() {
 
 
     return (
-        <Container>
+        <Container className="container-fluid">
           <h1 className="my-4 text-center">Final Chance to Enter</h1>
           <Row>
             <Col xs={12} md={6} className="mb-4">
