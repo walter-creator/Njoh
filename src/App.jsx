@@ -5,6 +5,7 @@ import './App.css';
 import CarouselComponent from './components/Carousel';
 import NavBar from './components/NavBar';
 import HomePage from "./pages/HomePage";
+import AboutPage from './pages/AboutPage';
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <div className="content-wrapper">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
           </Routes>
         </div>
       </div>

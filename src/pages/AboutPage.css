@@ -1,0 +1,35 @@
+/* AboutPage.css */
+.about-page {
+  margin-top: 100px; /* Adjust to ensure it doesn't overlap with the navbar */
+  color: #FFFFFF; /* Primary color for text */
+  font-family: 'Arial, sans-serif';
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  color: #FFD700;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: #FFA500;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  color: #FFD700;
+  margin-top: 20px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  color: #FFFFFF;
+}
+
+.about-image {
+  border-radius: 8px;
+  max-width: 800px;
+  height: auto;
+  margin-bottom: 20px; /* Adding some space below the image */
+  transform: scale(1.1); /* Slightly enlarge the image */
+}

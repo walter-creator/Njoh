@@ -41,26 +41,4 @@
   color: #888;
 }
 
-/* App.css */
 
-/* Ajout du style de background pour toute la page */
-body {
-  margin: 0;
-  padding: 0;
-  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Ffr%2Fvectors%2Faffiche-publicitaire.html&psig=AOvVaw3KaQuMF0cyZepQcCt_NysU&ust=1719617566876000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDt6uX4_IYDFQAAAAAdAAAAABAE');
-  background-size: cover; /* Pour couvrir toute la page */
-  background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
-  background-position: center center; /* Pour centrer l'image */
-  font-family: Arial, sans-serif;
-}
-
-.app-wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.content-wrapper {
-  flex: 1;
-  padding-top: 70px; /* Ajustez selon la hauteur de votre navbar */
-}
