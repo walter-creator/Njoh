@@ -2,7 +2,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp, FaHome, FaInfoCircle, FaTrophy } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 
@@ -28,13 +28,13 @@ const NavBar = () => {
           <Navbar.Collapse id="navbarCollapse" className="justify-content-end">
             <Nav className="mx-auto">
               <Link className="nav-link" to="/">
-                Home
+                <FaHome className="me-2" /> Home
               </Link>
               <Link className="nav-link" to="/about">
-                About
+                <FaInfoCircle className="me-2" /> About
               </Link>
               <Link className="nav-link" to="/results">
-                Results
+                <FaTrophy className="me-2" /> Results
               </Link>
             </Nav>
           </Navbar.Collapse>

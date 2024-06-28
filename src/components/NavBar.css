@@ -1,14 +1,16 @@
+/* NavBar.css */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
+  
   .payment-text {
-    margin-right: 10px; /* Ajustez la marge selon vos besoins */
-    font-size: 1rem; /* Taille de police */
-    font-weight: bold; /* Gras */
-    color: #0c0c0c; /* Couleur du texte */
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0c0c0c;
   }
   
   .nav-wrapper {
@@ -81,5 +83,9 @@
   
   .nav-link:hover {
     color: #FFEF00 !important;
+  }
+  
+  .tel {
+    margin-left: 10px;
   }
   
