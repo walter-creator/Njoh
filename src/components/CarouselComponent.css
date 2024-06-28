@@ -1,0 +1,17 @@
+/* CarouselComponent.css */
+
+.carousel-item {
+    height: 90vh; /* Ajustez la hauteur selon vos besoins */
+  }
+  
+  .carousel-image {
+    object-fit: cover; /* Assurez que l'image couvre entièrement le conteneur */
+    height: 100%;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  

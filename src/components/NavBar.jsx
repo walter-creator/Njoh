@@ -16,6 +16,7 @@ const NavBar = () => {
         </div>
         <div className="nav-right">
           <FaWhatsapp size={20} />
+          <span className="tel">698-824-068</span>
         </div>
       </div>
       <Navbar bg="dark" variant="dark" expand="xl" className="nav-main">
