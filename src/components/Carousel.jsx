@@ -1,17 +1,17 @@
 // import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
-import './CarouselComponent.css';
+import '../assets/css/CarouselComponent.css';
 
 // Import direct des images optimisées
-import gold1 from '../assets/images/gold1.jpg';
+import gold1 from '../assets/images/background.jpg';
 import gold2 from '../assets/images/gold2.jpg';
 import gold3 from '../assets/images/gold3.jpg';
 import gold4 from '../assets/images/gold4.jpg';
 
 const CarouselComponent = () => {
   return (
-    <Carousel controls={true} indicators={true} interval={3000} pause="hover">
+    <Carousel controls={true} indicators={false} interval={3000} pause="hover">
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
@@ -19,8 +19,8 @@ const CarouselComponent = () => {
           alt="Slide 1"
         />
         <Carousel.Caption>
-          <h3>Slide 1</h3>
-          <p>First slide description.</p>
+          <h3>Tentez votre chance et profitez de manifique mis a votre disposition </h3>
+          <p>Cette semaine un super scooter a gagner avec une participatioin de 500Fr seulement. </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

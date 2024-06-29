@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaWhatsapp, FaHome, FaInfoCircle, FaTrophy } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import './NavBar.css';
+import '../assets/css/NavBar.css';
 
 const NavBar = () => {
   return (
@@ -20,7 +20,7 @@ const NavBar = () => {
         </div>
       </div>
       <Navbar bg="dark" variant="dark" expand="xl" className="nav-main">
-        <Container fluid className="p-0">
+        <Container fluid className="">
           <Navbar.Brand href="/" className="nav-brand">
             <h1>Njoh</h1>
           </Navbar.Brand>

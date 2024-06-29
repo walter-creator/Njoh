@@ -3,7 +3,7 @@
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import './AboutPage.css';
+import '../assets/css/AboutPage.css';
 
 import about from '../assets/images/about.jpg';
 

@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    background-color: #0c0c0c;
+  }
   
   .payment-text {
     margin-right: 10px;
@@ -22,7 +25,7 @@
   }
   
   .nav-top-banner {
-    background: linear-gradient(to right, #FFD700, #FFA500);
+    background: linear-gradient(to right, #DFBD69, #926F34);
     color: black;
     text-align: center;
     font-size: 1.2rem;
@@ -56,7 +59,7 @@
     left: 0;
     right: 0;
     height: 5px;
-    background: linear-gradient(to right, #FFD700, #FFA500);
+    background: linear-gradient(to right, #DFBD69, #926F34);
     z-index: -1;
   }
   
@@ -69,6 +72,7 @@
   }
   
   .nav-brand h1 {
+    margin-left: 22px;
     color: #FFD700;
     font-family: 'Cursive, sans-serif';
     font-size: 2.5rem;
@@ -78,7 +82,7 @@
     color: #FFD700 !important;
     font-size: 1.3rem;
     transition: color 0.2s ease-in-out;
-    font-weight: bold;
+    font-weight: bold; 
   }
   
   .nav-link:hover {
@@ -87,5 +91,21 @@
   
   .tel {
     margin-left: 10px;
+  }
+
+  @media screen and (max-width: 600px){
+    .payment-text{
+      margin-right: 10px;
+      font-size: 0.7rem;
+      margin-left: 5px;
+    }
+    .tel{
+      font-size: 0.7rem;
+      margin-right: 20px;
+    }
+
+    nav{
+      width: auto;
+    }
   }
   
