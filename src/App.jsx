@@ -1,11 +1,11 @@
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import CarouselComponent from './components/Carousel';
-import NavBar from './components/NavBar';
-import HomePage from "./pages/HomePage";
-import AboutPage from './pages/AboutPage';
+import CarouselComponent from './Components/Carousel';
+import NavBar from './Components/NavBar';
+import HomePage from "./Pages/HomePage";
+import AboutPage from './Pages/AboutPage';
 
 
 

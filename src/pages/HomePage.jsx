@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-import LoterryCard from "../components/LoterryCard";
+import LoterryCard from "../Components/LoterryCard";
 
 
 
